@@ -23,7 +23,6 @@ def tata():
 
 @app.route ('/mypage/me', methods=['GET'])
 def mypage():
-   if request.method == 'GET':
        print("We received GET")
        return render_template("me.html")
    
